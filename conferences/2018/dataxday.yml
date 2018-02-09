@@ -1,0 +1,22 @@
+---
+title: "DataXDay"
+dates:
+  - "2018/03/17"
+links:
+  website:    "http://dataxday.fr/"
+  eventbrite: ""
+cfp:
+  link:   ""
+  start:  ""
+  end:    ""
+organizers:
+  xebians:
+    - "gbianchi"
+    - "ldivad"
+    - "ndufossé"
+    - "abeauchart"
+public:
+  expected: "??"
+location:
+  name: "Pan Piper"
+  address: "4 impasse Lamier, 75011 Paris"

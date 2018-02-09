@@ -1,0 +1,17 @@
+---
+title: "Xebicon '17"
+dates:
+  - "2017/10/30"
+links:
+  website:    "http://xebicon.fr/"
+  eventbrite: ""
+cfp:
+  link:   "https://cfp.xebicon.fr/"
+  start:  "2017/05/15"
+  end:    "2017/06/29"
+#organizers: "Xebia"
+public:
+  expected: "1000"
+location:
+  name: "Espace Grande Arche"
+  address: "Tunnel de Nanterre-La Défense, 92044 Paris La Défense"

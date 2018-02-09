@@ -1,0 +1,23 @@
+---
+title: "Paris Container Day 2018"
+dates:
+  - "2018/06/26"
+links:
+  website:    "https://paris-container-day.fr/"
+  eventbrite: ""
+cfp:
+  link:   ""
+  start:  ""
+  end:    ""
+organizers:
+  xebians:
+    - "jlrigau"
+    - "achotard"
+    - "fdesrousseaux"
+  others:
+    - "WeScale"
+public:
+  expected: "450"
+location:
+  name: "New Cap"
+  address: "1/13 quai de Grenelle, 75015 Paris"
