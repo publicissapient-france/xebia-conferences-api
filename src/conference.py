@@ -53,7 +53,7 @@ class Conference(object):
         items = [
             "====== " + self.title + " ======",
             "ID: " + self.meta_year + "/" + self.meta_slug,
-            "Dates: " + "".join(["\n  - " + datetime.strftime(date, "%Y/%m/%d")
+            "Dates: " + "".join(["\n  - " + date.strftime("%Y/%m/%d")
                                  for date in self.dates]),
             "Website: " + self.website,
             "Location: " + self.location.name,
