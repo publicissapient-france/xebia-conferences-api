@@ -23,7 +23,7 @@ def parse_conferences_from_directory(conferences_directory):
             conf_year = base_directory_name[-4:]  # TODO use re groups instead
 
             # Ensure that the filename is valid
-            if not re.match("[a-z]+.yml", filename):
+            if not re.match("[a-z-]+.yml", filename):
                 log.warning("Found {filename} that does not match expected "
                             "file format".format(filename=filename))
             conf_slug = filename[:-4]  # TODO use re groups instead
