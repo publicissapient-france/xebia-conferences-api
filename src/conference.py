@@ -27,7 +27,7 @@ class Conference(object):
         self.dates = [datetime.strptime(date, "%Y/%m/%d") for date in source_dict['dates']]
         self.links = source_dict['links']
         self.website = self.links['website']
-        self.has_cfp = 'cfp' in source_dict
+        self.has_internal_cfp = 'cfp' in source_dict and 'internal' in source_dict['cfp']
         self.expected_public = source_dict['public']['expected']
         self.location = Location(source_dict['location'])
 
@@ -39,7 +39,7 @@ class Conference(object):
             "dates": self.dates,
             "links": self.links,
             "website": self.website,
-            "has_cfp": self.has_cfp,
+            "has_internal_cfp": self.has_internal_cfp,
             "expected_public": self.expected_public,
             "location": self.location.name,
             "address": self.location.address
@@ -55,6 +55,6 @@ class Conference(object):
             "Location: " + self.location.name,
             "Address: " + self.location.address,
             "Expected public: " + self.expected_public,
-            "Has a CFP: " + str(self.has_cfp)
+            "Has an internal CFP: " + str(self.has_internal_cfp)
         ]
         return '\n'.join(items)
