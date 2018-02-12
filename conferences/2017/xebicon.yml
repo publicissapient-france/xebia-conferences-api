@@ -6,10 +6,12 @@ links:
   website:    "http://xebicon.fr/"
   eventbrite: ""
 cfp:
-  link:   "https://cfp.xebicon.fr/"
-  start:  "2017/05/15"
-  end:    "2017/06/29"
-#organizers: "Xebia"
+  internal:
+    link:   "https://cfp.xebicon.fr/"
+    start:  "2017/05/15"
+    end:    "2017/06/29"
+organizers:
+  xebians: []
 public:
   expected: "1000"
 location:

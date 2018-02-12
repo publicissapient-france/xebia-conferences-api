@@ -16,4 +16,4 @@ public:
   expected: "??"
 location:
   name: "Palais Brongniart"
-  adresss: "16 Place de la Bourse, 75002 Paris"
+  address: "16 Place de la Bourse, 75002 Paris"
