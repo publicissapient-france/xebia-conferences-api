@@ -1,6 +1,7 @@
 from utils import pretty_dumps
 from datetime import datetime
 
+from log import log
 from location import Location
 
 
@@ -15,10 +16,11 @@ class Conference(object):
         self.id = conf_id
         self.meta_year = conf_year
         self.meta_slug = conf_slug
-        # log.debug("Initializing conference object for {conf_id}"
-        #           " from dict: {source_dict}".format(
-        #             conf_id=self.id,
-        #             source_dict=pretty_dumps(source_dict)))
+
+        log.debug("Initializing conference object for {conf_id}"
+                  " from dict: {source_dict}".format(
+                    conf_id=self.id,
+                    source_dict=pretty_dumps(source_dict)))
 
         if 'date' in source_dict and 'dates' in source_dict:
             raise ConflictingFieldsException
