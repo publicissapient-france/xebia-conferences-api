@@ -39,7 +39,7 @@ class Conference(object):
             "title": self.title,
             "meta_year": self.meta_year,
             "meta_slug": self.meta_slug,
-            "dates": self.dates,
+            "dates": [date.strftime("%Y/%m/%d") for date in self.dates],
             "links": self.links,
             "website": self.website,
             "has_internal_cfp": self.has_internal_cfp,
