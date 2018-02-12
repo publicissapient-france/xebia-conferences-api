@@ -32,6 +32,7 @@ class Conference(object):
         self.has_internal_cfp = 'cfp' in source_dict and 'internal' in source_dict['cfp']
         self.expected_public = source_dict['public']['expected']
         self.location = Location(source_dict['location'])
+        self.organizers = source_dict['organizers']
 
     def json(self):
         return {
@@ -44,7 +45,8 @@ class Conference(object):
             "has_internal_cfp": self.has_internal_cfp,
             "expected_public": self.expected_public,
             "location": self.location.name,
-            "address": self.location.address
+            "address": self.location.address,
+            "organizers": self.organizers
         }
 
     def pretty(self):
