@@ -61,4 +61,4 @@ class Conference(object):
             "Expected public: " + self.expected_public,
             "Has an internal CFP: " + str(self.has_internal_cfp)
         ]
-        return '\n'.join(items)
+        return '\n'.join(items) + '\n'
