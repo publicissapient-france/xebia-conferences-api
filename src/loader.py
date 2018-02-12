@@ -17,7 +17,7 @@ def parse_conferences_from_directory(conferences_directory):
         for filename in file_names:
 
             # Ensure that the directory is a year directory
-            if not re.match("./conferences/[0-9]{4}", base_directory_name):
+            if not re.match(conferences_directory + "/[0-9]{4}", base_directory_name):
                 log.warning("Found {directory} that does not match expected "
                             "directory format".format(directory=base_directory_name))
             conf_year = base_directory_name[-4:]  # TODO use re groups instead
