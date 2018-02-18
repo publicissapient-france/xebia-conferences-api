@@ -2,9 +2,8 @@
 title: "Xebicon '17"
 dates:
   - "2017/10/30"
-links:
-  website:    "http://xebicon.fr/"
-  eventbrite: ""
+website:    "http://xebicon.fr/"
+eventbrite_id: "19931418409"
 cfp:
   internal:
     link:   "https://cfp.xebicon.fr/"

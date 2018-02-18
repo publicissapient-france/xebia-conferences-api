@@ -27,8 +27,7 @@ class Conference(object):
 
         self.title = source_dict['title']
         self.dates = [datetime.strptime(date, "%Y/%m/%d") for date in source_dict['dates']]
-        self.links = source_dict['links']
-        self.website = self.links['website']
+        self.website = source_dict['website']
         self.has_internal_cfp = 'cfp' in source_dict and 'internal' in source_dict['cfp']
         self.expected_public = source_dict['public']['expected']
         self.location = Location(source_dict['location'])
@@ -40,7 +39,6 @@ class Conference(object):
             "meta_year": self.meta_year,
             "meta_slug": self.meta_slug,
             "dates": [date.strftime("%Y/%m/%d") for date in self.dates],
-            "links": self.links,
             "website": self.website,
             "has_internal_cfp": self.has_internal_cfp,
             "expected_public": self.expected_public,

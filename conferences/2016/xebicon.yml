@@ -2,9 +2,8 @@
 title: "Xebicon '16"
 dates:
   - "2016/11/09"
-links:
-  website:    "http://2016.xebicon.fr/"
-  eventbrite: "https://www.eventbrite.fr/e/billets-xebicon17-build-the-future-34570781137#"
+website:    "http://2016.xebicon.fr/"
+eventbrite_id: "??"
 organizers:
   xebians: []
 public:

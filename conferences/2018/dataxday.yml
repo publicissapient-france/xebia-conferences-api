@@ -2,9 +2,8 @@
 title: "DataXDay"
 dates:
   - "2018/03/17"
-links:
-  website:    "http://dataxday.fr/"
-  eventbrite: ""
+website: "http://dataxday.fr/"
+eventbrite_id: "41871030379"
 cfp:
   link:   ""
   start:  ""

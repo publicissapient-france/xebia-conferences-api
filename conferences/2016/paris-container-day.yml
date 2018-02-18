@@ -2,9 +2,8 @@
 title: "Paris Container Day"
 dates:
   - "2016/06/29"
-links:
-  website:    "http://paris-container-day.fr/edition-2016/"
-  eventbrite: ""
+website:    "http://paris-container-day.fr/edition-2016/"
+eventbrite_id: "25192977875"
 cfp:
   link:   ""
   start:  ""

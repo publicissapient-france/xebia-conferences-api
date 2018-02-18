@@ -3,9 +3,8 @@ title: "Frenchkit 2018"
 dates:
   - "2018/09/20"
   - "2018/09/21"
-links:
-  website:    "http://frenchkit.fr/"
-  eventbrite: ""
+website: "http://frenchkit.fr/"
+eventbrite_id: "??"
 cfp:
   link:   ""
   start:  ""
