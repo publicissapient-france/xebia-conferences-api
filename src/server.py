@@ -18,6 +18,7 @@ for conference_id, conference in conferences.items():
 
 
 @app.route('/conferences', methods=['GET'])
+@app.route('/', methods=['GET'])
 def get_conferences():
     return jsonify({conf_id: conf.json() for (conf_id, conf) in conferences.items()})
 
