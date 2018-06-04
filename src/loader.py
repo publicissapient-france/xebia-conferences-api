@@ -42,8 +42,8 @@ def parse_conferences_from_directory(conferences_directory):
             try:
                 conferences[conf_id] = Conference(conf_id, conf_data,
                                                   conf_year, conf_slug)
-            except Exception as e:
-                log.error("Failed to initialize Conference: " + str(e))
+            except KeyError as e:
+                log.error("Failed to initialize Conference: Key Error - " + str(e))
             # conferences[conf_id] = conf_data
             # conferences[conf_id]['meta_year'] = conf_year
             # conferences[conf_id]['meta_name'] = conf_name
