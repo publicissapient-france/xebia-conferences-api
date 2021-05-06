@@ -3,7 +3,7 @@ chardet==3.0.4
 click==6.7
 -e git+https://github.com/Horgix/eventbrite-sdk-python.git@3e4acca25bc9db0a55b30b3f89ab9539fc21610c#egg=eventbrite
 Flask==0.12.2
-Flask-Cors==3.0.3
+Flask-Cors==3.0.9
 gunicorn==19.7.1
 idna==2.6
 itsdangerous==0.24
